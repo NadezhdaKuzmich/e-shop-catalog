@@ -221,5 +221,5 @@ btnBuy.addEventListener('click', (event) => {
     let msg = createMessage(description);
     modalBuy.append(msg);
     returnStyles(event);
-    setTimeout(hideMessage, 3000);
+    setTimeout(hideMessage, 3500);
 }) 

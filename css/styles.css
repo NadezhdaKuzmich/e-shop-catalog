@@ -120,6 +120,7 @@ li {
     width: 385px;
     flex-direction: column;
     text-align: justify;
+    align-items: center;
     padding: 15px;
     gap: 20px;
 }
@@ -158,11 +159,11 @@ li {
 }
 
 .btn {
-    width: 100px;
+    width: 140px;
     background: white;
     border: 1px solid black;
     border-radius: 25px;
-    padding: 10px 25px;
+    padding: 10px 42px;
     cursor: pointer;
     transition: all .8s ease-out;
 }
@@ -180,14 +181,14 @@ li {
 
 .modals-container {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 5px;
+    right: 5px;
 }
 
 .modal-buy {
     display: flex;
     text-align: center;
-    background: #e2eaf2;
+    background: #cde6ff;
     border-radius: 12px;
     box-shadow: 1px 2px 8px #cecece59;
     overflow: hidden;
@@ -209,7 +210,7 @@ h3 {
 }
 
 .modal-buy:hover {
-    background: #cbddf0;
+    background: #b7dbff;
 }
 
 .modal-content {

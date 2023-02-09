@@ -175,7 +175,7 @@ function filterGoods(category) {
 
 categories.forEach((category) => {
     category.addEventListener('click', () => {
-        description.classList.add('hidden')
+        description.classList.add('hidden');
         filterGoods(category);
     })
 })

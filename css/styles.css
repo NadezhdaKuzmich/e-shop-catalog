@@ -1,0 +1,219 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.container {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-company {
+    display: flex;
+    min-width: 1100px;
+    justify-content: space-between;
+    padding: 40px 10px;
+    border-bottom: 1px solid grey;
+}
+
+.header-logo {
+    display: flex;
+    font-size: 20px;
+    gap: 5px;
+}
+
+.header-logo p {
+    font-weight: 500;
+}
+
+.header-menu {
+    display: flex;
+    font-weight: 500;
+    gap: 40px;
+}
+
+a:hover {
+    color: #acb4cb;
+}
+
+.catalog-wrap {
+    display: flex;
+    min-width: 1120px;
+    min-height: 500px;
+    position: relative;
+    padding: 40px 0 60px;
+    gap: 10px;
+}
+
+.menu {
+    min-width: 180px;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 0 5px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #c8c5c5;
+    transition: all .5s ease-in-out;
+}
+
+#goods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.good-card {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 2px 4px 9px #c8c5c5;
+    transition: all .5s ease-out;
+}
+
+.good-card:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 4px 9px #7d7c7c;    
+}
+
+.good-visual {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 190px;    
+    margin: 15px 0 20px;    
+    overflow: hidden;
+}
+
+.good-visual img {
+    width: 100%;
+    transition: all .5s ease-out;
+}
+
+.good-visual img:hover {
+    transform: scale(1.03);
+}
+
+.good-card span {
+    float: right;
+    font-weight: 500;
+    color: #babec1;
+}
+
+.good-card p {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.description-card {
+    display: flex;
+    width: 385px;
+    flex-direction: column;
+    text-align: justify;
+    padding: 15px;
+    gap: 20px;
+}
+
+.description-visual {
+    width: 400px;
+    overflow: hidden;
+}
+
+.description-visual img {
+    width: 100%;
+    transition: all .5s ease-out;
+}
+
+.description-visual img:hover {
+    transform: scale(1.03);
+}
+
+.description-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 20px;
+}
+
+.description-title span {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.description-content {
+    border-top: 1px solid grey;
+    letter-spacing: 0.5px;
+    color: #666776;
+    padding: 20px 0;
+}
+
+.btn {
+    width: 100px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all .8s ease-out;
+}
+
+.menu li:hover,
+.btn:hover,
+.active {
+    background: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.modals-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.modal-buy {
+    display: flex;
+    text-align: center;
+    background: #e2eaf2;
+    border-radius: 12px;
+    box-shadow: 1px 2px 8px #cecece59;
+    overflow: hidden;
+    margin: 0 0 10px;
+    transition: all .5s ease-in;
+}
+
+.modal-content {
+    display: flex;
+    width: 240px;
+    flex-direction: column;
+    padding: 25px;
+    gap: 5px;
+}
+
+.modal-buy:hover {
+    background: #cbddf0;
+}
+
+.modal-content {
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.promo-wrap {
+    width: 930px;
+    background-image: url(../images/promo.jpg);
+    background-size: cover;
+}
